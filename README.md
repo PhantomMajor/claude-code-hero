@@ -68,7 +68,3 @@ A guide will meet you at the entrance.
 Your journey saves to `.claude/claude-code-hero.json`. The dungeon master verifies your work programmatically and advances you when you pass. Already have a `CLAUDE.md` or existing hooks? Never fear, only the local .claude/ directory is touched.
 
 Left mid-quest? Walk back in anytime and resume your quest: `claude --plugin-dir . --agent dungeon-master`
-
-## License
-
-MIT
