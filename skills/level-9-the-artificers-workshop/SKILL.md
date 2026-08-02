@@ -152,8 +152,12 @@ Everything you built across the quests behind you -- it was all plugin component
 
 Chamber after chamber. Each one a power claimed, a pattern learned, a tool forged.
 
-You entered this labyrinth mapping walls. You leave it building them.
+You entered this labyrinth mapping walls. You are starting to build them.
 
 The workshop was the point. Everything before it was a component; everything after it is something you can hand to another person. Whatever you build next, you now know how to package it.
 
-You are an artificer. Go build something.
+You are an artificer.
+
+And the corridor keeps going. Three chambers remain, and each one takes something you already own and sharpens it. Your tripwire learns to *decide* rather than react. Your toolbelt gains a tool that did not exist in Claude Code at all until you wired it in. And the companion you summoned alone becomes a warband you command several at a time.
+
+The plugin you just built is what makes those three worth having -- a power you cannot package is a power you keep to yourself.

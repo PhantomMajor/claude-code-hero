@@ -2,7 +2,7 @@
 
 ## What This Is
 
-Claude Code Hero is a Claude Code plugin that teaches Claude Code features through 10 progressive D&D-themed quests (levels 0-9). Each quest teaches one feature (commands, skills, hooks, agents, plugins) by having the learner build a specific artifact. The artifacts interconnect -- the spell from Level 3 gets a hook in Level 6, and everything bundles into a plugin in Level 9.
+Claude Code Hero is a Claude Code plugin that teaches Claude Code features through 13 progressive D&D-themed quests (levels 0-12). Each quest teaches one feature (commands, skills, hooks, agents, plugins, MCP, workflows) by having the learner build a specific artifact. The artifacts interconnect -- the spell from Level 3 gets a hook in Level 6, everything bundles into a plugin in Level 9, and the last three chambers build on what the first ten produced.
 
 The medium is the message: the plugin teaches you about plugins by being one.
 

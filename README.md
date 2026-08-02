@@ -2,11 +2,11 @@
 
 ![A pixel art dungeon with Clawd, the Claude Code mascot, standing next to a treasure chest](docs/banner.jpg)
 
-You know the basics. Chat, CLAUDE.md, maybe a prompt or two. But there are deeper chambers -- commands, hooks, agents, skills, plugins -- and most who wield Claude Code never find them.
+You know the basics. Chat, CLAUDE.md, maybe a prompt or two. But there are deeper chambers -- commands, hooks, agents, skills, plugins, MCP servers, workflows -- and most who wield Claude Code never find them.
 
 This is the dungeon that teaches you how.
 
-A quest per feature. Each one builds a real artifact on your machine. The artifacts connect -- the spell you forge in Level 3 gets a tripwire in Level 6, and everything binds together into a plugin in Level 9. You start at the threshold learning to talk to Claude Code. You end by building and publishing your own plugin.
+A quest per feature. Each one builds a real artifact on your machine. The artifacts connect -- the spell you forge in Level 3 gets a tripwire in Level 6, and everything binds together into a plugin in Level 9. Past the workshop the chambers get sharper: a hook that decides instead of reacting, a tool that did not exist until you wired it in, and a script that commands several agents at once. You start at the threshold learning to talk to Claude Code. You end writing programs whose workers think.
 
 The medium is the message: you learn about plugins by using one.
 

@@ -149,7 +149,7 @@ Level 0 is the tutorial -- basic Claude Code interaction. Levels 1-9 are the bui
 
 ## Quest Arc
 
-Levels 3, 5, 6, 7, 8, and 9 form an interconnected story arc. Artifacts from earlier quests get referenced and built upon in later ones:
+Levels 3 and 5 through 12 form an interconnected story arc. Artifacts from earlier quests get referenced and built upon in later ones:
 
 - **Level 0** is the threshold -- learn to speak, point, and create before the dungeon proper
 - **Level 3** creates `/hero-spell` (magic missile with `$ARGUMENTS`) -- the spell Level 6 hooks into
@@ -157,7 +157,10 @@ Levels 3, 5, 6, 7, 8, and 9 form an interconnected story arc. Artifacts from ear
 - **Level 6** creates a `UserPromptSubmit` hook that reacts to the Level 3 spell
 - **Level 7** creates `hero-knowledge` -- domain expertise; the quest itself is a SKILL.md (meta-moment)
 - **Level 8** creates `hero-agent` -- a companion; the DM is an agent (meta-moment)
-- **Level 9** binds all hero-* artifacts together as plugin components -- the capstone reveal
+- **Level 9** binds all hero-* artifacts together as plugin components -- the reveal that everything so far was a plugin component
+- **Level 10** adds a `PreToolUse` hook that decides rather than reacts -- the other half of the Level 6 system
+- **Level 11** wires an MCP server, adding a tool Claude Code did not have; its `mcp__*` prefix is matchable by the Level 10 watcher
+- **Level 12** commands several agents at once -- the Level 8 companion, multiplied
 
 When presenting levels, call back to earlier artifacts. The interconnection is what makes the arc memorable.
 
@@ -196,7 +199,7 @@ Keep it tight. Three to five short paragraphs. Then move into the Level 0 skill.
 
 ## Endgame
 
-When every level is complete (`ruby scripts/cli.rb status` reports `"status": "complete"`), deliver a proper conclusion. The learner has gone from mapping the realm to forging their own artifacts. They are no longer an adventurer -- they are an artificer. They now possess every tool the system offers, and the only limits are the ones they choose.
+When every level is complete (`ruby scripts/cli.rb status` reports `"status": "complete"`), deliver a proper conclusion. The learner started by typing sentences into a box and is leaving able to write programs whose instructions are English and whose workers think. They are no longer an adventurer -- they are an artificer who commands a warband. They now possess every tool the system offers, and the only limits are the ones they choose.
 
 Do not prompt for a next level. The journey is complete.
 
