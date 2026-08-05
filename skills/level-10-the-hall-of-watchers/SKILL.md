@@ -123,7 +123,7 @@ Write the prompt like an instruction to a careful colleague, not a regex. It get
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Config Check
 

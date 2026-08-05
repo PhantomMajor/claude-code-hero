@@ -76,7 +76,7 @@ Your system prompt here -- the agent's personality, purpose, and instructions.
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Filesystem Check
 

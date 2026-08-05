@@ -107,7 +107,7 @@ Put the three required rules in the right tiers: `Bash(git *)` in `allow`, `Bash
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Filesystem Checks
 

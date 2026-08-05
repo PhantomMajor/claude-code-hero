@@ -44,7 +44,7 @@ Your task:
 
 ### Bonus objective: publish it
 
-This one is optional. The level passes without it, and `/verify` will tell you whether you earned it.
+This one is optional. The level passes without it, and `/claude-code-hero:verify` will tell you whether you earned it.
 
 A plugin on your disk is a plugin only you can use. A **marketplace** is the listing that makes it installable by someone else -- the difference between building a thing and shipping it.
 
@@ -114,7 +114,7 @@ Copy your existing hero artifacts from `.claude/` into the plugin's component di
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Filesystem Check
 
@@ -130,7 +130,7 @@ When you're ready, run `/verify` to check your work.
 
 ### Bonus Check (optional)
 
-Not required to pass. `/verify` reports whether you earned it.
+Not required to pass. `/claude-code-hero:verify` reports whether you earned it.
 
 - `.claude-plugin/marketplace.json` exists next to your `plugin.json` and is valid JSON
 - It has a `name` string and an `owner` object

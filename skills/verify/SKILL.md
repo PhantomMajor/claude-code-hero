@@ -1,6 +1,6 @@
 ---
 name: verify
-description: "Verify your current Claude Code Hero quest level. Use when the learner types /verify, asks to check their work, or wants to see quest progress."
+description: "Verify your current Claude Code Hero quest level. Use when the learner types /claude-code-hero:verify or /verify, asks to check their work, or wants to see quest progress."
 argument-hint: "[level-number]"
 allowed-tools: Bash("jq '.current_level' .claude/claude-code-hero.json"), Read
 ---

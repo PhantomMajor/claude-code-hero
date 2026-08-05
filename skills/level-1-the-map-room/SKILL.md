@@ -51,13 +51,13 @@ Your map should cover both: what you found in `./.claude/`, and how `~/.claude/`
 
 ### Write the Map
 
-Create `.claude/hero-map.md` and document what you discovered. Your map needs at least three sections (using `## ` headings), each covering a different part of what you learned. Structure it however makes sense to you -- by directory, by concept, by scope.
+Create `.claude/hero-map.md` and document what you discovered. Your map needs at least three sections (using `##` headings), each covering a different part of what you learned. Structure it however makes sense to you -- by directory, by concept, by scope.
 
 ## Hints
 
 ### Hint 1
 
-Start with `ls .claude/`. The directory names are descriptive. Open each file you find and read it. Create your map file at `.claude/hero-map.md` with `## ` headings for each area you explore.
+Start with `ls .claude/`. The directory names are descriptive. Open each file you find and read it. Create your map file at `.claude/hero-map.md` with `##` headings for each area you explore.
 
 ### Hint 2
 
@@ -69,10 +69,10 @@ Commands are Markdown files with YAML between `---` markers at the top. Read the
 
 ## Verification
 
-When you're ready, run `/verify` to check your work. The script checks:
+When you're ready, run `/claude-code-hero:verify` to check your work. The script checks:
 
 - `.claude/hero-map.md` exists
-- The file contains at least 3 `## ` headings (sections documenting different parts of what you learned)
+- The file contains at least 3 `##` headings (sections documenting different parts of what you learned)
 
 ## Further Reading
 

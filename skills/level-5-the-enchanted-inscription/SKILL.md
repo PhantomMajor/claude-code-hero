@@ -109,7 +109,7 @@ Test with `scripts/quest-log.quest` first (canary should appear), then any non-q
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Filesystem Check
 

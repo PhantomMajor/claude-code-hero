@@ -41,7 +41,7 @@ Ask Claude to create `.claude/hero-journal.md`. The journal should contain:
 
 - A short entry (a few sentences) about what you've learned so far
 - Written as if it's the first page of an adventurer's journal
-- At least one `## ` heading
+- At least one `##` heading
 
 The exact content is yours to decide. The only requirements are that the file exists at `.claude/hero-journal.md` and has some real content in it (not just a heading with nothing under it).
 
@@ -61,7 +61,7 @@ You can ask Claude to read the file back to you to check: `read @.claude/hero-jo
 
 ## Completion
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 The dungeon checks for one thing: does `.claude/hero-journal.md` exist with real content? If it does, the threshold opens.
 

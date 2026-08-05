@@ -58,7 +58,7 @@ The `argument-hint` shows up as placeholder text after the command name -- `/her
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Filesystem Check
 

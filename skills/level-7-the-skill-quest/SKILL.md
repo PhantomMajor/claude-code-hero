@@ -123,7 +123,7 @@ Two things sharpen a description more than length does. Write it in the third pe
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Filesystem Check
 

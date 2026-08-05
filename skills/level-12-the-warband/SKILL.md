@@ -109,7 +109,7 @@ Also unavailable: `Date.now()`, `new Date()` with no arguments, and `Math.random
 
 ## Verification
 
-When you're ready, run `/verify` to check your work.
+When you're ready, run `/claude-code-hero:verify` to check your work.
 
 ### Filesystem Check
 
