@@ -33,12 +33,12 @@ macOS and Linux. Windows users: WSL.
 ## Enter the Dungeon
 
 ```bash
-$ claude --plugin-dir . --agent dungeon-master
+claude --plugin-dir . --agent dungeon-master
 ```
 
 A guide will meet you at the entrance.
 
-## The Ten Chambers
+## The Thirteen Chambers
 
 | Quest | Chamber | What You Learn |
 |-------|---------|----------------|
@@ -51,20 +51,27 @@ A guide will meet you at the entrance.
 | 6 | The Tripwire Cavern | Hooks |
 | 7 | The Skill Quest of Doom | Skills |
 | 8 | The Summoner's Circle | Agents |
-| 9 | The Artificer's Workshop | Plugins |
+| 9 | The Artificer's Workshop | Plugins, and publishing one to a marketplace |
+| 10 | The Hall of Watchers | Advanced hooks -- deciding, not just reacting |
+| 11 | The Oracle Well | MCP servers |
+| 12 | The Warband | Dynamic workflows |
 
 ## Commands at Your Belt
 
 | Command | What it does |
 |---|---|
-| `/claude-code-hero:hero-status` | Unroll the quest log |
 | `/claude-code-hero:verify` | Test whether your current quest is complete |
+| `/claude-code-hero:progress` | Unroll the quest log |
 | `/claude-code-hero:music` | Toggle dungeon music on or off |
 | `/claude-code-hero:solve <N>` | Create minimum artifacts to pass levels 0 through N (QA tool) |
 | `/claude-code-hero:restart` | Wipe all artifacts and return to the entrance |
 
+Plugin commands carry the plugin's name, so the prefix is not optional -- but you never have to type any of it. Ask the dungeon master instead: "check my work" runs the same verification, and "where am I?" unrolls the same quest log.
+
 ## How Progress Works
 
-Your journey saves to `.claude/claude-code-hero.json`. The dungeon master verifies your work programmatically and advances you when you pass. Already have a `CLAUDE.md` or existing hooks? Never fear, only the local .claude/ directory is touched.
+Your journey saves to `.claude/claude-code-hero.json`. The dungeon master verifies your work programmatically and advances you when you pass.
+
+Already have a `CLAUDE.md` or existing hooks? Every artifact is named `hero-*`, so nothing of yours is overwritten and `/claude-code-hero:restart` removes only what the dungeon created. Most quests write inside `.claude/`; the later ones reach outside it, since that is where the real thing lives -- Level 9 builds a plugin directory and Level 11 writes `.mcp.json` at the project root.
 
 Left mid-quest? Walk back in anytime and resume your quest: `claude --plugin-dir . --agent dungeon-master`
