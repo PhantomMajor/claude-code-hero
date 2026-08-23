@@ -1,0 +1,8 @@
+{
+  "name": "hero-plugin",
+  "version": "1.0.0",
+  "description": "A collection of Claude Code Hero artifacts packaged as a shareable plugin",
+  "author": {
+    "name": "Udayaditya Pratap Singh"
+  }
+}

@@ -30,7 +30,7 @@ TARGET="${TARGET:-the darkness}"
 #   echo "hero: Magic Missile fired at $TARGET ($(date))" >> /tmp/hero-hook-log.txt
 #   osascript -e "display notification \"Magic Missile fired at $TARGET\" with title \"Claude Code Hero\""
 #
-echo "hero: REPLACE_ME - edit hero-hook.sh with your command" >>/tmp/hero-hook-log.txt
+echo "hero: Magic Misscle fired at $TARGET ($(date))" >>/tmp/hero-hook-log.txt
 # ============================================================
 
 # Tell Claude Code what happened (displayed to the user, no API call spent)
