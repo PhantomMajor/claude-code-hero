@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(ruby scripts/cli.rb:*)"
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "ruby scripts/cli.rb statusline"
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/hero-hook.sh"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Read|Edit|Write",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "You are a guardian of the hero's artifacts. Before any Read, Edit, or Write operation on files, evaluate: Is this operation safe and aligned with the hero's quest progression? Decline if the operation would damage quest artifacts or break the learning flow. Approve if it supports the current level's objective."
+          }
+        ]
+      }
+    ]
+  }
+}

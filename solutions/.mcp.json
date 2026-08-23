@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hero-oracle": {
+      "command": "ruby",
+      "args": ["scripts/hero-oracle-server.rb"]
+    }
+  }
+}
